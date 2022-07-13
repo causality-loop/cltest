@@ -1,0 +1,25 @@
+Package: cltest
+Title: cltest
+Version: 0.0.0.9000
+Authors@R: person("causality", "loop", , "dynaflat_eline@slmail.me", role = c("aut", "cre"))
+Maintainer: causality loop <dynaflat_eline@slmail.me>
+Description: Various functions to test a portfolio of models.
+License: GPL (>= 3)
+URL: https://github.com/causality-loop/cltest
+BugReports: https://github.com/causality-loop/cltest/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    data.table,
+    lubridate,
+    magrittr,
+    parallel,
+    PerformanceAnalytics,
+    utils,
+    xts,
+    zoo,
+    TTR,
+    clhelpers
+Remotes:
+    causality-loop/clhelpers
